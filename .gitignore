@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated data & model artifacts (regenerate via the notebooks)
+data/IoT_Simulation_Output.csv
+models/*.pkl
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Environment variables
+.env
